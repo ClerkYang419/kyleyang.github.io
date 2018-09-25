@@ -181,11 +181,30 @@ h1, h2, h3 {
 	padding-inline-end: 50px;
 }
 
-.resume{
-	max-width: 540px;
-	padding-inline-start: 50px;
-	text-align: left;
+.personal_content{
+	max-width: 380px;
+	width: 50%;
+	margin-left: auto;
+	display: inline-block;
+}
+
+.personal_proj{
 	float: left;
+}
+
+.content_left{
+	display: inline-block;
+	padding-right: 30px;
+}
+
+.content_right{
+	display: inline-block;
+	float: right;
+	padding-left: 30px;
+}
+
+.resume{
+	text-align: left;
 	margin-bottom: 25px;
 }
 
