@@ -173,40 +173,40 @@ h1, h2, h3 {
 
 .personal_state {
 	font-family: 'Comfortaa', cursive;
+	font-size: 1.3rem;
 	letter-spacing: 1px;
 	font-weight: 300;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	padding-inline-start: 50px;
+	padding-inline-end: 50px;
 }
 
 .resume{
-	max-width: 500px;
+	max-width: 400px;
+	padding-inline-start: 50px;
 	text-align: left;
-	margin-bottom: 50px;
+	float: left;
+	margin-bottom: 25px;
 }
 
 .exp{
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	letter-spacing: 1px;
 	font-size: 0.8em;
-  line-height: 1.6em;
+	line-height: 1.6em;
+	margin-bottom: 15px;
 }
 
 .resume_bold{
-	font-family: 'PT Sans', sans-serif;
-	text-align: left;
-	letter-spacing: 1px;
-	font-weight: 1000;
+	font-weight: 700;
 }
 
 .resume_bold_date{
-	font-family: 'PT Sans', sans-serif;
-	text-align: left;
-	letter-spacing: 1px;
 	font-weight: 700;
 	color: #777
 }
 
 .resume_bold_organization{
-	font-family: 'PT Sans', sans-serif;
-	text-align: left;
-	letter-spacing: 1px;
 	font-weight: 300;
 }
