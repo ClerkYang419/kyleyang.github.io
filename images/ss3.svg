@@ -997,7 +997,7 @@
         <g id="Desktop-HD">
             <g id="Group" transform="translate(-401.000000, -118.000000)">
                 <g id="bg"></g>
-                <g id="black" transform="translate(1483.000000, 324.000000)">
+                <g id="black" transform="translate(1473.000000, 318.000000)">
                     <g id="Laptop">
                         <path d="M161.141682,699.55 L1156.8224,699.55 L1156.8224,15.3908691 C1156.8224,7.47731974 1150.39517,1.05 1142.47467,1.05 L175.489412,1.05 C167.572084,1.05 161.141682,7.47448993 161.141682,15.3908691 L161.141682,699.55 Z" id="Display" stroke="url(#linearGradient-2)" stroke-width="2.1" fill="url(#linearGradient-1)"></path>
                         <g id="Base-+-Shadow">
@@ -1315,7 +1315,7 @@
                         <rect stroke="#333232" stroke-width="0.7" stroke-linejoin="square" fill="url(#pattern-157)" x="191.467202" y="51.19" width="932.547637" height="599.46"></rect>
                     </g>
                 </g>
-                <g id="white" transform="translate(170.000000, 0.000000)">
+                <g id="white" transform="translate(170.000000, 14.000000)">
                     <g id="Laptop">
                         <g id="Display">
                             <use fill="black" fill-opacity="1" filter="url(#filter-162)" xlink:href="#path-161"></use>
