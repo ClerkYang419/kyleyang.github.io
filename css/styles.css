@@ -39,8 +39,11 @@ input:focus, textarea:focus {
 }
 
 .portfolio-content {
-	line-height: 2;
-	color: #555;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	line-height: 1.74;
+	letter-spacing: 1px;
+	color: #565656;
 }
 
 .portfolio-content a {
@@ -60,6 +63,7 @@ h1, h2, h3 {
 	letter-spacing: 1px;
 	font-weight: 300;
 	margin-bottom: 20px;
+	color: #2d2d2d;
 }
 
 .navbar-brand {
