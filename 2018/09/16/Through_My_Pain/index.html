@@ -90,12 +90,7 @@
 </div>
 <div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
   <h1 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h1><p>This project is related to my dissertation research in pain management with Margolis pain-diagram <a href="https://www.ncbi.nlm.nih.gov/pubmed/2937007" target="_blank" rel="noopener">(Margolis, 1986)</a>. Pain management is a means of clinical analysis. The diagnosis and treatment of chronic pain and research need long-term pain collection and continuous analysis. They can help therapists make more accurate diagnoses and treatment plans. Many of these studies have focused on providing an effective scientific approach to assessing chronic pain. Margolis, B., et al. have proposed using a rating system to manage pain information for medical purposes. Their rating system advocate drawing pain on diagram to reveal heuristic value. In this system, the body anatomy is divided into 45 different body parts and it provides each part with the opportunity for pain drawing. Referring to the pain diagram from the rating system, I designed and implemented an pain collection and management application – <a href="http://35.178.181.58/login" target="_blank" rel="noopener">Through My Pain</a>.</p>
-<p><br><br><img src="/images/ss5.svg" alt="Show case of Through My Pain UI"><br><br><br><!-- Purpose of the project — Why was this project started?
-Objective — What were the deliverables?
-Project duration — How long did it take?
-Team — Who were your partners? Provide names and links to their LinkedIn profiles.
-Your role — How did you contribute to the team?
-Final product showcase — Pictures/videos (overview) or links to app download, view prototype, source code. --></p>
+<p><br><br><img src="/images/ss5.svg" alt="Show case of Through My Pain UI"><br><br></p>
 <p><hr></p>
 <h2 id="Design-for-patients-or-“everyone”"><a href="#Design-for-patients-or-“everyone”" class="headerlink" title="Design for patients or “everyone”?"></a>Design for patients or “everyone”?</h2><blockquote>
 <p>During the research, the initial question is who are main stackholders or objects of this project? Obviously, patient groups are most important research object and user, but the definition of patient population is relatively vague. How can an individual certainly be determined as a patient if their sympotoms are not discovered? Some patients have a serious disease even without any clue or sympotom. By the time these individuals were tested for their own disease, it was too late. I consider that this project, while helping complete the dissertation research, should also have a clear object orientation. Therefore, the stackholder is not just for the sick but for the avarage person.</p>
@@ -124,47 +119,83 @@ Final product showcase — Pictures/videos (overview) or links to app downlo
 <p><br></p>
 <hr>
 
-<h2 id="Implementation"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation</h2><p>Following the the UX process design, concrete implementation involved starts here. With wireframe support, code implementations are flowing. The initial technical solution was Flask + MySQL + Vue.js. Choosing Flask and MySQL because I am personally familiar with these two technologies. Flask also provides a relatively handy methods in implementing small applications. This framework is great for moving quickly from prototype to primary implementation. With the help of MySQL it can provide a relatively stable application experience.</p>
+<h2 id="Implementation"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation</h2><p>Following the the UX process design, concrete implementation involved starts here. With wireframe support, code implementations are flowing. The initial technical solution was Flask + MySQL + Vue.js. Choosing Flask and MySQL because I am personally familiar with these two technologies. Flask also provides a relatively handy methods in implementing small applications. This framework is great for moving quickly from prototype to primary implementation. </p>
+<p>With the help of MySQL it can provide a relatively stable application experience consuming short development time.</p>
 <p><br></p>
 <hr>
 
-<h3 id="API-and-front-end-binding"><a href="#API-and-front-end-binding" class="headerlink" title="API and front-end binding"></a>API and front-end binding</h3><p>REST API<br><code><br>• /domain/api/add_new_record<br>• /domain/api/add_new_pain<br>• /domain/api/get_pid<br>• /domain/api/get_rid<br>• /domain/api/get_list<br></code></p>
-<p>View-Model binding through Vue.js provides technique </p>
+<h3 id="API-and-front-end-binding"><a href="#API-and-front-end-binding" class="headerlink" title="API and front-end binding"></a>API and front-end binding</h3><p>REST(Representational State Transfer) API takes the advantages of current protocols. HTTP standard is at the core of fundamental in REST. It has freedom and flexibility when using REST to develope Web API. At this point, according to the benefit of using it and its popularity in small-scale project, I decided to use REST in implementing the API of my application. The Flask-restful extension made it possible and exposed methods to create API based on original Flask. With the help of this extension package, I established the API in the form of REST, including the add, delete, update and read of records and pains. Here are the partial interfaces:<br><code><br>/domain/api/add_new_record<br>/domain/api/add_new_pain<br>/domain/api/get_pid<br>/domain/api/get_rid<br>/domain/api/get_list<br></code></p>
+<p>View-Model binding which plays basis in the MVVM design pattern through Vue.js framework provides the technique connecting data attributes with view objects on web pages. It standardizes the javascript code in front-end to some extent. Seperating the data aspect from view aspect helps phased implementation and later modification. Vue.js includes more than these functions. The functions available in this project are limited to meet requirements. Here is an vue instance example in the record page: </p>
+<p><code><br>new Vue({<br>    data:{<br>        date: “”,<br>        brief: “”,<br>        exist_pains: [],<br>        selected_pain: “”,<br>        pain_count: 0,<br>        pains_list:[]<br>    },<br>    methods:{<br>        find_pain:   function(id){},<br>        delete_pain: function(id){},<br>        add_pain:    function(){}<br>    }<br>})<br></code></p>
 <p><br></p>
 <hr>
 
-<p><br></p>
+<h3 id="SUS-evaluation"><a href="#SUS-evaluation" class="headerlink" title="SUS evaluation"></a>SUS evaluation</h3><p>System Usability Scale (SUS) is a questionnaire consisting of 10 Likert scale questions. Options range from strongly agree (5) to strongly disagree (1), and questions on this questionnaire include both positive and negative using experience. The purpose of the SUS evaluation is to detect the basic usability of the application. The usability test process is designed to allow users to use the functionality of the application in accordance with preseted instructions and record screen of it. After using the application, participants fill out the SUS form based on their previous experience. The study involved 11 potential users who were willing to undergo long-term health monitoring and the usability test. The statistical result can be seen here:</p>
+<div style="font-size: 14px;">
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Questions</th>
+<th style="text-align:right">Mean/</th>
+<th style="text-align:left">Standard Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Q1. I think that I would like to use this system frequently</td>
+<td style="text-align:right">3.63/</td>
+<td style="text-align:left">0.67</td>
+</tr>
+<tr>
+<td style="text-align:left">Q2. I found the system unnecessarily complex</td>
+<td style="text-align:right">2.55/</td>
+<td style="text-align:left">0.93</td>
+</tr>
+<tr>
+<td style="text-align:left">Q3. I thought the system was easy to use</td>
+<td style="text-align:right">4.18/</td>
+<td style="text-align:left">0.98</td>
+</tr>
+<tr>
+<td style="text-align:left">Q4. I think that I would need the technical person to be able to use this system</td>
+<td style="text-align:right">2.45/</td>
+<td style="text-align:left">1.37</td>
+</tr>
+<tr>
+<td style="text-align:left">Q5. I found the various functions in this system were well integrated</td>
+<td style="text-align:right">3.36/</td>
+<td style="text-align:left">0.50</td>
+</tr>
+<tr>
+<td style="text-align:left">Q6. I thought there was too much inconsistency in this system</td>
+<td style="text-align:right">2.09/</td>
+<td style="text-align:left">0.94</td>
+</tr>
+<tr>
+<td style="text-align:left">Q7. I would imagine that most people would learn to use this system very quickly</td>
+<td style="text-align:right">4.18/</td>
+<td style="text-align:left">0.75</td>
+</tr>
+<tr>
+<td style="text-align:left">Q8. I found the system very cumbersome</td>
+<td style="text-align:right">2.00/</td>
+<td style="text-align:left">0.45</td>
+</tr>
+<tr>
+<td style="text-align:left">Q9. I felt very confident using the system</td>
+<td style="text-align:right">3.64/</td>
+<td style="text-align:left">0.81</td>
+</tr>
+<tr>
+<td style="text-align:left">Q10. I needed to learn a lot of things before I could get going with this system</td>
+<td style="text-align:right">1.82/</td>
+<td style="text-align:left">0.75</td>
+</tr>
+</tbody>
+</table>
+<p></p></div><br><br><br>For the questions of Q1, Q3, Q5, Q7, and Q9, which reported some positive aspects for usability, the mean is 3.798. The questions of Q2, Q4, Q6, Q8, and Q10, which reflected negative aspects, has a mean of 2.182. As can be seen, participants shows more positive attitude when using the application. This is not statistically obvious, because application development is incomplete. Some users need to be able to fully understand the usage of the application, which means the clarity of application needs to be improved. Results of Q1 and Q5 show that users are willing to use it, which means that some of these features meet the need of participants but it is better to be improved.<p></p>
 <hr>
-
-<h3 id="SUS-evaluation"><a href="#SUS-evaluation" class="headerlink" title="SUS evaluation"></a>SUS evaluation</h3><p><br></p>
-<p><hr><br><!-- 
-    <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure></p>
-  <!-- - Type some Markdown on the left  
-  sadsa
-  - See HTML in the right  - Type some Markdown on the left
-  - See HTML in the right -->
-<!-- asdsad
-`#button {
-    border: none;
-}`
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```  -->
-<!-- | Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| Github | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-`${package.json.version}`
-## Second title
-
-More info: [Writing](https://hexo.io/docs/writing.html) --></p>
 </div>
 
 
