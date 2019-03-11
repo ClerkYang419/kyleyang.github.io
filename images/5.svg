@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1097px" height="553px" viewBox="0 0 1097 553" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1088px" height="553px" viewBox="0 0 1088 553" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>Group 6</title>
     <desc>Created with Sketch.</desc>
@@ -84,28 +84,30 @@
                             </g>
                         </g>
                     </g>
-                    <text id="In-the-recording-pro" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" letter-spacing="-0.6057613" fill="#0E0E0E">
+                    <text id="In-the-recording-pro" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" letter-spacing="-0.545185149" fill="#0E0E0E">
                         <tspan x="821" y="22">In the recording process, </tspan>
-                        <tspan x="821" y="50">users have to add a </tspan>
-                        <tspan x="821" y="78">‘record’ in the list, then to </tspan>
-                        <tspan x="821" y="106">write concrete pain details. </tspan>
-                        <tspan x="821" y="134">Compared with recording </tspan>
-                        <tspan x="821" y="162">their pain directly, this </tspan>
-                        <tspan x="821" y="190">adds an additional step to </tspan>
-                        <tspan x="821" y="218">the process, which can be </tspan>
-                        <tspan x="821" y="246">confusing for users.</tspan>
+                        <tspan x="821" y="47">users have to add a ‘record’ </tspan>
+                        <tspan x="821" y="72">in the list, then to write </tspan>
+                        <tspan x="821" y="97">concrete pain details. </tspan>
+                        <tspan x="821" y="122">Compared with recording </tspan>
+                        <tspan x="821" y="147">their pain directly, this adds </tspan>
+                        <tspan x="821" y="172">an additional step to the </tspan>
+                        <tspan x="821" y="197">process, which can be </tspan>
+                        <tspan x="821" y="222">confusing for users.</tspan>
                     </text>
-                    <text id="Functions-are-insuff" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" letter-spacing="-0.6057613" fill="#0E0E0E">
-                        <tspan x="821" y="318">Functions are insufficient </tspan>
-                        <tspan x="821" y="346">and it cannot provide a </tspan>
-                        <tspan x="821" y="374">complete user experience.</tspan>
+                    <text id="Functions-are-insuff" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" letter-spacing="-0.545185149" fill="#0E0E0E">
+                        <tspan x="821" y="296">Functions are insufficient and </tspan>
+                        <tspan x="821" y="321">it cannot provide a complete </tspan>
+                        <tspan x="821" y="346">user experience.</tspan>
                     </text>
-                    <text id="Pain-diagram-only-ha" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" letter-spacing="-0.6057613" fill="#0E0E0E">
-                        <tspan x="821" y="426">Pain-diagram only has front </tspan>
-                        <tspan x="821" y="454">and reverse, while the profile of </tspan>
-                        <tspan x="821" y="482">the body cannot be recorded. </tspan>
-                        <tspan x="821" y="510">The block display is inaccurate </tspan>
-                        <tspan x="821" y="538">to mark different types of pain. </tspan>
+                    <text id="Pain-diagram-only-ha" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" letter-spacing="-0.545185149" fill="#0E0E0E">
+                        <tspan x="821" y="393">Pain-diagram only has the front </tspan>
+                        <tspan x="821" y="418">and the back side of the body, </tspan>
+                        <tspan x="821" y="443">while the side of the body cannot </tspan>
+                        <tspan x="821" y="468">be recorded. In addition, the </tspan>
+                        <tspan x="821" y="493">display of an entire block is </tspan>
+                        <tspan x="821" y="518">inaccurate to mark different types </tspan>
+                        <tspan x="821" y="543">of pain. </tspan>
                     </text>
                     <g id="Group-5" transform="translate(285.000000, 18.000000)" fill-rule="nonzero" stroke="#BF3B42" stroke-width="2">
                         <g id="Group-3" transform="translate(0.000000, 94.000000)">
