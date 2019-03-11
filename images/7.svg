@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="452px" height="75px" viewBox="0 0 452 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6" transform="translate(-671.000000, -532.000000)">
+            <g id="Rectangle-5" transform="translate(671.000000, 532.000000)">
+                <rect fill="#EDEDED" fill-rule="nonzero" transform="translate(109.803198, 37.500000) rotate(-270.000000) translate(-109.803198, -37.500000) " x="72.2755228" y="0" width="75.0553506" height="75"></rect>
+                <rect fill="#EDEDED" fill-rule="nonzero" transform="translate(262.693727, 37.500000) rotate(-270.000000) translate(-262.693727, -37.500000) " x="225.166052" y="0" width="75.0553506" height="75"></rect>
+                <rect id="Rectangle-48" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="75.0553506" height="75"></rect>
+                <rect fill="#EDEDED" fill-rule="nonzero" transform="translate(414.472325, 37.500000) rotate(-270.000000) translate(-414.472325, -37.500000) " x="376.944649" y="0" width="75.0553506" height="75"></rect>
+                <g id="numb" stroke-width="1" fill-rule="evenodd" transform="translate(103.965560, 13.333333)" fill="#9F73FF">
+                    <polygon id="Path-3" fill-rule="nonzero" points="14.4551046 2.31688555e-14 0 17.7111795 7.22755228 29.7311707 0 47.7777778 14.4551046 29.7311707 7.22755228 17.7111795"></polygon>
+                </g>
+                <rect id="Rectangle-49" fill="#FFFFFF" fill-rule="nonzero" x="147.330873" y="0" width="78.3911439" height="75"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="299.109471" y="0" width="77.8351784" height="75"></rect>
+                <g id="pain" stroke-width="1" fill-rule="evenodd" transform="translate(22.238622, 20.555556)">
+                    <ellipse id="Oval" fill="#FFC5C5" fill-rule="nonzero" opacity="0.492689732" cx="17.2349323" cy="17.2222222" rx="17.2349323" ry="17.2222222"></ellipse>
+                    <ellipse id="Oval-2" fill="#FF7373" fill-rule="nonzero" cx="16.9569496" cy="16.9444444" rx="9.17343173" ry="9.16666667"></ellipse>
+                </g>
+                <g id="Rash" stroke-width="1" fill-rule="evenodd" transform="translate(171.237392, 21.666667)" fill="#FF7373">
+                    <ellipse id="Oval-3" fill-rule="nonzero" cx="9.17343173" cy="20.2777778" rx="3.05781058" ry="3.05555556"></ellipse>
+                    <ellipse id="Oval-3" fill-rule="nonzero" cx="8.06150062" cy="4.16666667" rx="4.1697417" ry="4.16666667"></ellipse>
+                    <ellipse id="Oval-3" fill-rule="nonzero" cx="2.50184502" cy="13.6111111" rx="2.50184502" ry="2.5"></ellipse>
+                    <ellipse id="Oval-3" fill-rule="nonzero" cx="16.9569496" cy="13.6111111" rx="2.50184502" ry="2.5"></ellipse>
+                    <ellipse id="Oval-3" fill-rule="nonzero" cx="19.4587946" cy="26.6666667" rx="5.00369004" ry="5"></ellipse>
+                    <ellipse id="Oval-3" fill-rule="nonzero" cx="24.1845018" cy="7.5" rx="3.61377614" ry="3.61111111"></ellipse>
+                    <ellipse id="Oval-3" fill-rule="nonzero" cx="28.0762608" cy="18.6111111" rx="2.50184502" ry="2.5"></ellipse>
+                </g>
+                <g id="bleeding" stroke-width="1" fill-rule="evenodd" transform="translate(251.296433, 17.222222)" fill="#FF7373">
+                    <path d="M2.28782776,22.6924541 C7.88682715,15.2102278 10.8417013,7.64607644 11.1524502,0 C11.5092427,7.65922862 14.4518489,15.2362501 19.9802686,22.7310644 C21.3975102,24.5960254 22.2386224,26.9220812 22.2386224,29.4444444 C22.2386224,35.5809417 17.2603372,40.5555556 11.1193112,40.5555556 C4.97828519,40.5555556 0,35.5809417 0,29.4444444 C0,26.9046446 0.852781342,24.5638755 2.28782776,22.6924541 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+                </g>
+                <g id="swell" stroke-width="1" fill-rule="evenodd" transform="translate(309.672817, 30.555556)">
+                    <path d="M1.13686838e-13,13.7149237 C16.9199572,13.7149237 11.0015885,4.98908759e-16 27.1030268,0 C42.4596041,0 37.7320955,13.7149237 54.2060537,13.7149237 L1.13686838e-13,13.7149237 Z" id="Path-5" fill="#FF7373" fill-rule="nonzero"></path>
+                    <path d="M13.5759908,7.22222222 L40.5339533,7.22222222 C43.2156798,10.4864314 46.1906671,13.6401179 53.9286593,13.7136134 L53.9286593,13.7149237 L1.13686838e-13,13.7149237 C8.15985197,13.7149237 11.0080435,10.5251532 13.5759908,7.22222222 Z" id="Combined-Shape" fill="#FBE0E0" fill-rule="nonzero"></path>
+                    <path d="M14.4551046,17.8869903 C16.3394745,19.6660338 18.2639933,20.5555556 20.2286611,20.5555556 C23.1756629,20.5555556 29.6491037,16.1111111 32.9327617,16.1111111 C35.1218671,16.1111111 37.4874533,16.7030708 40.0295203,17.8869903" id="Path-6" stroke="#FF7373" stroke-width="3" fill-rule="nonzero"></path>
+                </g>
+                <g id="bone" stroke-width="1" fill-rule="evenodd" transform="translate(401.963100, 13.333333)">
+                    <ellipse id="Oval-6" fill="#FF7373" fill-rule="nonzero" cx="5.00369004" cy="5" rx="5.00369004" ry="5"></ellipse>
+                    <ellipse id="Oval-6" fill="#FF7373" fill-rule="nonzero" cx="19.4587946" cy="43.8888889" rx="5.00369004" ry="5"></ellipse>
+                    <ellipse id="Oval-6" fill="#FF7373" fill-rule="nonzero" cx="5.83763838" cy="42.5" rx="3.61377614" ry="3.61111111"></ellipse>
+                    <ellipse id="Oval-6" fill="#FF7373" fill-rule="nonzero" cx="18.6248462" cy="6.38888889" rx="3.61377614" ry="3.61111111"></ellipse>
+                    <path d="M15.350115,34.9996034 L18.9850102,38.9165396 L15.3327225,41.062045 L9.18988534,41.062045 L5.6150669,38.9165396 L9.15311761,35.0213406 L9.02552587,14.058829 L5.6150669,9.96189689 L9.02552587,7.97764541 L15.4101918,7.97764541 L18.9850102,9.96189689 L15.4101918,14.058829 L15.350115,34.9996034 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
