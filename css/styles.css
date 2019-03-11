@@ -60,7 +60,7 @@ input:focus, textarea:focus {
 }
 
 h1, h2, h3 {
-	font-family: 'Crimson Text', sans-serif;
+	font-family: "SF Pro Display", "SF Pro Icons","Helvetica Neue", "Helvetica", "Arial", 'Crimson Text', sans-serif;
 	letter-spacing: 1px;
 	font-weight: 300;
 	margin-bottom: 20px;
