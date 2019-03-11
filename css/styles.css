@@ -40,7 +40,7 @@ input:focus, textarea:focus {
 
 .portfolio-content {
 	/* font-family: 'Merriweather', serif; */
-	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-family: "SF Pro Display", "SF Pro Icons","Helvetica Neue", "Helvetica", "Arial", -apple-system, BlinkMacSystemFont, sans-serif;
 	font-size: 20px;
 	line-height: 1.74;
 	/* letter-spacing: 1px; */
