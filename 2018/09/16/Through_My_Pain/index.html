@@ -91,119 +91,138 @@
 <div class="col-12 px-4 portfolio-content">
   <h3 id="Forward"><a href="#Forward" class="headerlink" title="Forward"></a>Forward</h3><div>This project originated from my research — ‘Pain-diagram Assisted Survey Platform for Pain Management’. Doctors usually use Margolis Pain-diagram <a href="https://www.ncbi.nlm.nih.gov/pubmed/2937007" target="_blank" rel="noopener">(Margolis, 1986)</a> as a pain-recording tool to collect patients’ pain information. The Margolis Pain-diagram is a 2D human-body diagram which is divided into 43 body blocks, so patients can choose which part of their body feels pain and mark on the diagram. Then, doctors will analyse the cause of the pain and give patients treatment on time. My research discusses how to move this diagram on an electronic device, as a user-friendly interactive application, to provide better help for the medical treatment process.</div>
 
-<p><br><br><b>Methods used in the research:</b><br>Questionnaire user research<br>Face to face interview<br>Persona<br>User journey map<br>Wireframing<br>User flow<br>SUS analysis</p>
+<p><br><br><b>Methods used in the research:</b></p>
+<div style="font-size: 14px">Questionnaire user research<br>Face to face interview<br>Persona<br>User journey map<br>Wireframing<br>User flow<br>SUS analysis</div>
+
+
+<p>###Sift appropriate participants &amp; research potential user requirements<br>In user research phase, the first step is to find appropriate participants from schoolmates, teachers, community friends and people in social media groups. Sifting out participants who have experience of chronic disease and letting them to join in the research, because patients who have or had chronic disease are user groups who have the strongest motivation, and they will be more positive in the research.</p>
 <p><br><br><img src="/images/2.svg" alt="questionnaire"><br><br></p>
+<p>There are 31 questionnaires received in the end, and 5 participants had chronic disease in the past. I made appointments with them individually for a face to face interview. Before interviews, the web app was wire-framed on several papers, in this way, these wireframes can imitate the real application which can be tested by participants during their interviews.</p>
+<p>There were conclusions drawn after interviews:</p>
+<ul>
+<li>Participants think they can understand the purpose of this application design, but their chronic pain is always diagnosed by doctors, so they think it’s unnecessary to be collected by individuals.</li>
+<li>Some participants think the function of this application is too simple to help them understand causes of their pain.</li>
+<li>All 5 participants think the way of choosing pain location on the pain-diagram is rough. While the detailed body structures are too professional for them to distinguish, if they are not clear about the body structure, they will tend to choose a wrong location, which may lead to an inaccurate pain record.</li>
+</ul>
 <p><br><br><img src="/images/3.svg" alt="questionnaire"><br><br></p>
 <p><br><br><img src="/images/4.svg" alt="questionnaire"><br><br></p>
-<p><br><br><img src="/images/5.svg" alt="questionnaire"><br><br></p>
-<p><br><br><img src="/images/6.svg" alt="questionnaire"><br><br></p>
-<p><br><br><img src="/images/7.svg" alt="questionnaire"><br><br></p>
+<p>###Reflect on the first design<br>The first version of my design was a web app. After entering the application, users can add a pain record and mark their pain regions on the pain-diagram. Then, choosing a type of the pain and other attributes in the form followed. In the end, submitting the record to save it in the backend. At the meantime, the data visualisation charts like bar charts can provide reference of pain severity through this period of the symptom.  However, the result of the System Usability Scale analysis did not show obviously that the application was usable, and testers also agreed with that this application was more suitable for back-end pain management rather than used by end users. Therefore, the first design was seen as failed.<br><br><br><img src="/images/5.svg" alt="questionnaire"><br><br></p>
+<p>###Rethinking how pain areas should be marked<br>In 2D body diagram, simple marks cannot locate the pain areas accurately. There was an idea which was adding grid on the pain-diagram, but the 2D diagram has no body details for reference, so it did not let participants draw their pain more accurately. In some example, participants were more confused conversely.<br><br><br><img src="/images/6.svg" alt="questionnaire"><br><br></p>
+<p>In the second design process, it was considered that the entire-block-marking method led to a drawback of rough recording, while patients were very clear about their symptoms and the type of pain, so they should have been given more chance to provide these information.</p>
+<p>For how to display these marks, usually, different types of brush are used to draw various touches in computer painting. Inspired by this, I designed several labels according to different symptoms as marking tools, which was more objective than the original way.<br><br><br><img src="/images/7.svg" alt="questionnaire"><br><br></p>
 <p><br><br><img src="/images/8.svg" alt="questionnaire"><br><br></p>
 <p><br><br><img src="/images/9.svg" alt="questionnaire"><br><br></p>
-<p><hr></p>
-<h2 id="Design-for-patients-or-“everyone”"><a href="#Design-for-patients-or-“everyone”" class="headerlink" title="Design for patients or “everyone”?"></a>Design for patients or “everyone”?</h2><blockquote>
-<p>During the research, the initial question is who are main stackholders or objects of this project? Obviously, patient groups are most important research object and user, but the definition of patient population is relatively vague. How can an individual certainly be determined as a patient if their sympotoms are not discovered? Some patients have a serious disease even without any clue or sympotom. By the time these individuals were tested for their own disease, it was too late. I consider that this project, while helping complete the dissertation research, should also have a clear object orientation. Therefore, the stackholder is not just for the sick but for the avarage person.</p>
-</blockquote>
-<p>Another point is, similarly, whether the therapist will join and use the app to help their patient. The answer is that it is both necessary and feasible. When defining user and function, it is important to consider how does the design solve the problem. In the process of analysing patients with chronic pain, the therapist plays an indispensable role. Thinking about the absence of therapist, when users use application to record pain, only depending on the software analysis method is not enough to get effective results. These effective results include whether you should go to hospital and whether you need clinical treatment.<br><br></p>
-<p><hr></p>
-<h1 id="Initializing-the-process"><a href="#Initializing-the-process" class="headerlink" title="Initializing the process"></a>Initializing the process</h1><p>In the beginning, for gathering ideas from stackholders, an initial survey was conducted. Under normal circumstances, some questionnaires may help to determine basic requirements. The information I get in this process varies. The statistical result were consistent with previous expectations. There are 59.1% participants believe that pain drawing can help them improve their health and are in need of long-term health monitoring. 63.6% participants willing to see the doctor if they get clue about their bad health condition. As a commercially viable solution may be far-fetched, but it has sufficient research value. For this “not that high” demand, a possible reason would be participants are from different culture and they may have different clinical service in their background. Most of them cannot imagine what kind of service the on-going health tracking would be, so much so that they think it doesn’t matter. </p>
-<p>It can be seen that the initial survey helps to adjust the overall design target and improves accuracy of aiming user requirements. With the help of these information, I did some drafts from scratch. Drawing the interface on the paper is a handy way to get the point of entire design and it is also easy to be modified.<br><br></p>
+<!-- <hr>
+## Design for patients or "everyone"?
+> During the research, the initial question is who are main stackholders or objects of this project? Obviously, patient groups are most important research object and user, but the definition of patient population is relatively vague. How can an individual certainly be determined as a patient if their sympotoms are not discovered? Some patients have a serious disease even without any clue or sympotom. By the time these individuals were tested for their own disease, it was too late. I consider that this project, while helping complete the dissertation research, should also have a clear object orientation. Therefore, the stackholder is not just for the sick but for the avarage person.
+
+Another point is, similarly, whether the therapist will join and use the app to help their patient. The answer is that it is both necessary and feasible. When defining user and function, it is important to consider how does the design solve the problem. In the process of analysing patients with chronic pain, the therapist plays an indispensable role. Thinking about the absence of therapist, when users use application to record pain, only depending on the software analysis method is not enough to get effective results. These effective results include whether you should go to hospital and whether you need clinical treatment.
+<br> -->
+<!-- <hr>
+# Initializing the process
+In the beginning, for gathering ideas from stackholders, an initial survey was conducted. Under normal circumstances, some questionnaires may help to determine basic requirements. The information I get in this process varies. The statistical result were consistent with previous expectations. There are 59.1% participants believe that pain drawing can help them improve their health and are in need of long-term health monitoring. 63.6% participants willing to see the doctor if they get clue about their bad health condition. As a commercially viable solution may be far-fetched, but it has sufficient research value. For this "not that high" demand, a possible reason would be participants are from different culture and they may have different clinical service in their background. Most of them cannot imagine what kind of service the on-going health tracking would be, so much so that they think it doesn't matter. 
+
+It can be seen that the initial survey helps to adjust the overall design target and improves accuracy of aiming user requirements. With the help of these information, I did some drafts from scratch. Drawing the interface on the paper is a handy way to get the point of entire design and it is also easy to be modified.  
+<br>
 <hr>
 
-<h3 id="Design-rational"><a href="#Design-rational" class="headerlink" title="Design rational"></a>Design rational</h3><p>The design rational I should follow is same as the experience I want to provide to users. When there are many chooses between different interfaces, words and even technical solutions, following the predetermined design rational helps you standardize the entire style of the application so that it is not designed to look like anything else. During design process, I asked myself about what kind of experience I should provide in this health application. It is beyond just superficial functionality of this app. Considering the context in which this app will be used, the primary experience, as the most anticipated by the patient, should address the most basic and important needs of the user. </p>
-<p>First, analysis of the application has several possible usage scenarios: daily use, clinical data collection, and long term ward recording. The internal requirements of users are obtained according to the preseted scenarios and potential scenarios. For example, in the case of daily use, users rarely have a large amount of time to specifically use this application. Therefore, fast and simplicity are necessary design rationales. Besides, data collection in the outpatient department is a fast process with high volume. Usually, it is the first time for patients to use the application. Clear interface design and concise use process can help with solving real problems. Third, long-term pain management need a progress that users use the app for a long time. Therapists will also collect information from the app. As an application that may be used for a long time, it should have practical value. To sum up, the application should be practical, concise and clear under the premise of meeting basic and key requirements.</p>
-<ul>
-<li>Practical<br>Meeting general functional requirements which contain key features of this applicaiton.</li>
-<li>Concise<br>Remove unnecessary operations process. Simplify interface information and interactions.</li>
-<li>Clear<br>Be articulate in wording and guiding. Providing fair and clear interface navigation.</li>
-</ul>
-<p><br></p>
+### Design rational 
+The design rational I should follow is same as the experience I want to provide to users. When there are many chooses between different interfaces, words and even technical solutions, following the predetermined design rational helps you standardize the entire style of the application so that it is not designed to look like anything else. During design process, I asked myself about what kind of experience I should provide in this health application. It is beyond just superficial functionality of this app. Considering the context in which this app will be used, the primary experience, as the most anticipated by the patient, should address the most basic and important needs of the user. 
+
+First, analysis of the application has several possible usage scenarios: daily use, clinical data collection, and long term ward recording. The internal requirements of users are obtained according to the preseted scenarios and potential scenarios. For example, in the case of daily use, users rarely have a large amount of time to specifically use this application. Therefore, fast and simplicity are necessary design rationales. Besides, data collection in the outpatient department is a fast process with high volume. Usually, it is the first time for patients to use the application. Clear interface design and concise use process can help with solving real problems. Third, long-term pain management need a progress that users use the app for a long time. Therapists will also collect information from the app. As an application that may be used for a long time, it should have practical value. To sum up, the application should be practical, concise and clear under the premise of meeting basic and key requirements.
+
+ - Practical
+  Meeting general functional requirements which contain key features of this applicaiton.
+ - Concise
+  Remove unnecessary operations process. Simplify interface information and interactions.
+ - Clear
+  Be articulate in wording and guiding. Providing fair and clear interface navigation.
+
+
+<br>
 <hr>
 
-<h2 id="Drafting-the-Interface"><a href="#Drafting-the-Interface" class="headerlink" title="Drafting the Interface"></a>Drafting the Interface</h2><p>The fastest drafts are also the process with the most changes. The process of making the draft is similar to bringing the original idea to life. Although the idea has not been polished yet, it is enough to create the application process and interface design. Hand-drawing and using software tools are both good ways to create wireframes. Here, I used <a href="https://balsamiq.com/" target="_blank" rel="noopener">Balsamiq</a> to draw my wireframes. In the process of making wireframes, I would encounter the situation of “do not know where to start”. At this time, I often have too many ideas in my mind, some of which are even contradictory. My approach is to start with the basics and write down the ideas. Organizing the thoughts to discover internal differences and relationships helps me find the right path to the point. </p>
-<p>The use of Balsamiq in the process of wireframe design has some limitations. Preseted wireframes do not fully express some desired interface. For example, when designing the secondary navigation bar, the preseted wireframes cannot be changed, while what I want is the navigation bar without borders. Therefore, only solution would be modifying it later when making the high-fidelity design. Actually, hand-sketching or using original graphic applications may be a better way in this circumstance. </p>
-<p><br><br><img src="/images/ss6.svg" alt="Show case of wireframes"><br><br></p>
-<p><hr></p>
-<h3 id="Trying-A-B-test-in-the-experiment"><a href="#Trying-A-B-test-in-the-experiment" class="headerlink" title="Trying A/B test in the experiment"></a>Trying A/B test in the experiment</h3><p>The application is designed to assist dissertation research. The experimental study explore which method is more suitable for presenting pain on pain diagram. Participants draw differently according to their own pain, and an alternative rule is that they need to describe specific locations according to different painting methods. The reason for doing this is to get the experimental data of A/B test. The A/B test result delivered in this way mainly are feedback from participants. In the experiment, I labeled the interactive buttons and components in the wireframe with stickers of different colors, and then combined all the wireframes into a simulation application. Participants used this simulation application to record pain during the experiment.<br><br><br><img src="/images/ss7.svg" alt="Show case of different pain diagram design"></p>
-<p><br></p>
+## Drafting the Interface
+
+The fastest drafts are also the process with the most changes. The process of making the draft is similar to bringing the original idea to life. Although the idea has not been polished yet, it is enough to create the application process and interface design. Hand-drawing and using software tools are both good ways to create wireframes. Here, I used [Balsamiq](https://balsamiq.com/) to draw my wireframes. In the process of making wireframes, I would encounter the situation of "do not know where to start". At this time, I often have too many ideas in my mind, some of which are even contradictory. My approach is to start with the basics and write down the ideas. Organizing the thoughts to discover internal differences and relationships helps me find the right path to the point. 
+
+The use of Balsamiq in the process of wireframe design has some limitations. Preseted wireframes do not fully express some desired interface. For example, when designing the secondary navigation bar, the preseted wireframes cannot be changed, while what I want is the navigation bar without borders. Therefore, only solution would be modifying it later when making the high-fidelity design. Actually, hand-sketching or using original graphic applications may be a better way in this circumstance. 
+
+<br>
+![Show case of wireframes](/images/ss6.svg)
+<br>
+
+<hr>
+### Trying A/B test in the experiment
+The application is designed to assist dissertation research. The experimental study explore which method is more suitable for presenting pain on pain diagram. Participants draw differently according to their own pain, and an alternative rule is that they need to describe specific locations according to different painting methods. The reason for doing this is to get the experimental data of A/B test. The A/B test result delivered in this way mainly are feedback from participants. In the experiment, I labeled the interactive buttons and components in the wireframe with stickers of different colors, and then combined all the wireframes into a simulation application. Participants used this simulation application to record pain during the experiment.  
+<br>
+![Show case of different pain diagram design](/images/ss7.svg)
+
+<br>
 <hr>
 
-<h2 id="Implementation"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation</h2><p>Following the the UX process design, concrete implementation involved starts here. With wireframe support, code implementations are flowing. The initial technical solution was Flask + MySQL + Vue.js. Choosing Flask and MySQL because I am personally familiar with these two technologies. Flask also provides a relatively handy methods in implementing small applications. This framework is great for moving quickly from prototype to primary implementation. </p>
-<p>With the help of MySQL it can provide a relatively stable application experience consuming short development time.</p>
-<p><br></p>
+## Implementation
+Following the the UX process design, concrete implementation involved starts here. With wireframe support, code implementations are flowing. The initial technical solution was Flask + MySQL + Vue.js. Choosing Flask and MySQL because I am personally familiar with these two technologies. Flask also provides a relatively handy methods in implementing small applications. This framework is great for moving quickly from prototype to primary implementation. 
+
+With the help of MySQL it can provide a relatively stable application experience consuming short development time.
+
+<br>
 <hr>
 
-<h3 id="API-and-front-end-binding"><a href="#API-and-front-end-binding" class="headerlink" title="API and front-end binding"></a>API and front-end binding</h3><p>REST(Representational State Transfer) API takes the advantages of current protocols. HTTP standard is at the core of fundamental in REST. It has freedom and flexibility when using REST to develope Web API. At this point, according to the benefit of using it and its popularity in small-scale project, I decided to use REST in implementing the API of my application. The Flask-restful extension made it possible and exposed methods to create API based on original Flask. With the help of this extension package, I established the API in the form of REST, including the add, delete, update and read of records and pains. Here are the partial interfaces:<br><code><br>/domain/api/new_record<br>/domain/api/new_pain<br>/domain/api/pid<br>/domain/api/rid<br>/domain/api/list<br></code></p>
-<p>View-Model binding which plays basis in the MVVM design pattern through Vue.js framework provides the technique connecting data attributes with view objects on web pages. It standardizes the javascript code in front-end to some extent. Seperating the data aspect from view aspect helps phased implementation and later modification. Vue.js includes more than these functions. The functions available in this project are limited to meet requirements. Here is an vue instance example in the record page: </p>
-<p><code><br>new Vue({<br>    data:{<br>        date: “”,<br>        brief: “”,<br>        exist_pains: [],<br>        selected_pain: “”,<br>        pain_count: 0,<br>        pains_list:[]<br>    },<br>    methods:{<br>        find_pain:   function(id){},<br>        delete_pain: function(id){},<br>        add_pain:    function(){}<br>    }<br>})<br></code></p>
-<p><br></p>
+### API and front-end binding
+REST(Representational State Transfer) API takes the advantages of current protocols. HTTP standard is at the core of fundamental in REST. It has freedom and flexibility when using REST to develope Web API. At this point, according to the benefit of using it and its popularity in small-scale project, I decided to use REST in implementing the API of my application. The Flask-restful extension made it possible and exposed methods to create API based on original Flask. With the help of this extension package, I established the API in the form of REST, including the add, delete, update and read of records and pains. Here are the partial interfaces:
+<code>
+/domain/api/new_record
+/domain/api/new_pain
+/domain/api/pid
+/domain/api/rid
+/domain/api/list
+</code>
+
+View-Model binding which plays basis in the MVVM design pattern through Vue.js framework provides the technique connecting data attributes with view objects on web pages. It standardizes the javascript code in front-end to some extent. Seperating the data aspect from view aspect helps phased implementation and later modification. Vue.js includes more than these functions. The functions available in this project are limited to meet requirements. Here is an vue instance example in the record page: 
+
+<code>
+new Vue({
+    data:{
+        date: "",
+        brief: "",
+        exist_pains: [],
+        selected_pain: "",
+        pain_count: 0,
+        pains_list:[]
+    },
+    methods:{
+        find_pain:   function(id){},
+        delete_pain: function(id){},
+        add_pain:    function(){}
+    }
+})
+</code>
+
+<br>
 <hr>
 
-<h3 id="SUS-evaluation"><a href="#SUS-evaluation" class="headerlink" title="SUS evaluation"></a>SUS evaluation</h3><p>System Usability Scale (SUS) is a questionnaire consisting of 10 Likert scale questions. Options range from strongly agree (5) to strongly disagree (1), and questions on this questionnaire include both positive and negative using experience. The purpose of the SUS evaluation is to detect the basic usability of the application. The usability test process is designed to allow users to use the functionality of the application in accordance with preseted instructions and record screen of it. After using the application, participants fill out the SUS form based on their previous experience. The study involved 11 potential users who were willing to undergo long-term health monitoring and the usability test. The statistical result can be seen here:</p>
+### SUS evaluation
+System Usability Scale (SUS) is a questionnaire consisting of 10 Likert scale questions. Options range from strongly agree (5) to strongly disagree (1), and questions on this questionnaire include both positive and negative using experience. The purpose of the SUS evaluation is to detect the basic usability of the application. The usability test process is designed to allow users to use the functionality of the application in accordance with preseted instructions and record screen of it. After using the application, participants fill out the SUS form based on their previous experience. The study involved 11 potential users who were willing to undergo long-term health monitoring and the usability test. The statistical result can be seen here:
+
+
 <div style="font-size: 14px;">
 
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Questions</th>
-<th style="text-align:right">Mean/</th>
-<th style="text-align:left">Standard Deviation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Q1. I think that I would like to use this system frequently</td>
-<td style="text-align:right">3.63/</td>
-<td style="text-align:left">0.67</td>
-</tr>
-<tr>
-<td style="text-align:left">Q2. I found the system unnecessarily complex</td>
-<td style="text-align:right">2.55/</td>
-<td style="text-align:left">0.93</td>
-</tr>
-<tr>
-<td style="text-align:left">Q3. I thought the system was easy to use</td>
-<td style="text-align:right">4.18/</td>
-<td style="text-align:left">0.98</td>
-</tr>
-<tr>
-<td style="text-align:left">Q4. I think that I would need the technical person to be able to use this system</td>
-<td style="text-align:right">2.45/</td>
-<td style="text-align:left">1.37</td>
-</tr>
-<tr>
-<td style="text-align:left">Q5. I found the various functions in this system were well integrated</td>
-<td style="text-align:right">3.36/</td>
-<td style="text-align:left">0.50</td>
-</tr>
-<tr>
-<td style="text-align:left">Q6. I thought there was too much inconsistency in this system</td>
-<td style="text-align:right">2.09/</td>
-<td style="text-align:left">0.94</td>
-</tr>
-<tr>
-<td style="text-align:left">Q7. I would imagine that most people would learn to use this system very quickly</td>
-<td style="text-align:right">4.18/</td>
-<td style="text-align:left">0.75</td>
-</tr>
-<tr>
-<td style="text-align:left">Q8. I found the system very cumbersome</td>
-<td style="text-align:right">2.00/</td>
-<td style="text-align:left">0.45</td>
-</tr>
-<tr>
-<td style="text-align:left">Q9. I felt very confident using the system</td>
-<td style="text-align:right">3.64/</td>
-<td style="text-align:left">0.81</td>
-</tr>
-<tr>
-<td style="text-align:left">Q10. I needed to learn a lot of things before I could get going with this system</td>
-<td style="text-align:right">1.82/</td>
-<td style="text-align:left">0.75</td>
-</tr>
-</tbody>
-</table>
-<p></p></div><br><br><br>For the questions of Q1, Q3, Q5, Q7, and Q9, which reported some positive aspects for usability, the mean is 3.798. The questions of Q2, Q4, Q6, Q8, and Q10, which reflected negative aspects, has a mean of 2.182. As can be seen, participants shows more positive attitude when using the application. This is not statistically obvious, because application development is incomplete. Some users need to be able to fully understand the usage of the application, which means the clarity of application needs to be improved. Results of Q1 and Q5 show that users are willing to use it, which means that some of these features meet the need of participants but it is better to be improved.<p></p>
+| Questions | Mean/ | Standard Deviation |
+| :--- | ---: | :--- |
+| Q1. I think that I would like to use this system frequently | 3.63/| 0.67 |
+| Q2. I found the system unnecessarily complex | 2.55/| 0.93 |
+| Q3. I thought the system was easy to use | 4.18/| 0.98 |
+| Q4. I think that I would need the technical person to be able to use this system | 2.45/| 1.37 |
+| Q5. I found the various functions in this system were well integrated | 3.36/| 0.50 |
+| Q6. I thought there was too much inconsistency in this system | 2.09/| 0.94 |
+| Q7. I would imagine that most people would learn to use this system very quickly | 4.18/| 0.75 |
+| Q8. I found the system very cumbersome | 2.00/ | 0.45 |
+| Q9. I felt very confident using the system | 3.64/ | 0.81 |
+| Q10. I needed to learn a lot of things before I could get going with this system | 1.82/ | 0.75 |
+</div>
+<br>
+For the questions of Q1, Q3, Q5, Q7, and Q9, which reported some positive aspects for usability, the mean is 3.798. The questions of Q2, Q4, Q6, Q8, and Q10, which reflected negative aspects, has a mean of 2.182. As can be seen, participants shows more positive attitude when using the application. This is not statistically obvious, because application development is incomplete. Some users need to be able to fully understand the usage of the application, which means the clarity of application needs to be improved. Results of Q1 and Q5 show that users are willing to use it, which means that some of these features meet the need of participants but it is better to be improved. -->
 
 </div>
 
