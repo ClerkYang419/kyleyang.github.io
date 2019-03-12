@@ -65,8 +65,8 @@
                     <circle id="Oval" fill="#BF3B42" fill-rule="nonzero" cx="896" cy="176" r="3"></circle>
                     <circle id="Oval" fill="#BF3B42" fill-rule="nonzero" cx="1008" cy="176" r="3"></circle>
                     <path d="M7.5,90.5 L7.5,26 C7.5,14.954305 16.454305,6 27.5,6 L49,6" id="Line-3" stroke="#BF3B42" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
-                    <text id="Scrolling-downward" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" letter-spacing="-0.2044444" fill="#BF3B42">
-                        <tspan x="527" y="359">Scrolling downward</tspan>
+                    <text id="Scroll-downward" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" letter-spacing="-0.2044444" fill="#BF3B42">
+                        <tspan x="531" y="359">Scroll downward</tspan>
                     </text>
                     <text id="Success" font-family="PingFangSC-Medium, PingFang SC" font-size="18" font-weight="400" letter-spacing="-0.2044444" fill="#BF3B42">
                         <tspan x="1006.21956" y="211">Success</tspan>
